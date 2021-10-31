@@ -1,4 +1,5 @@
-import webbrowser
+import requests
 
 while True:
-	webbrowser.open('https://beta.exitus.me/?__cf_chl_managed_tk__=pmd_gGuJWiitSW3OVaTzdAExJ3ewmMfa4XtCFDkLb5XSE5I-1635689939-0-gqNtZGzNAyWjcnBszQZ9') 
+	url="https://beta.exitus.me/?__cf_chl_managed_tk__=pmd_zIKIS44AV4kZCfOKKDMjGN8paQmki5lqS2.117wvAUY-1635691405-0-gqNtZGzNAyWjcnBszQoR"
+	requests.get(url)
